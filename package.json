@@ -7,6 +7,9 @@
   "scripts": {
     "test": "jest"
   },
+    "jest": {
+    "reporters": ["default", "jest-junit"]
+  },
   "jest": {
     "reporters": ["default", "jest-junit"]
   },
